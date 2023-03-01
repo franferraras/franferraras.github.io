@@ -1,0 +1,139 @@
+body{
+    background-image:linear-gradient(#636162);
+    height: 122vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+*{
+    margin: 0px; padding:0px; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.main{
+    background-color: rgb(247, 233, 175);
+    height: auto;
+    width: 750px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    left: 50%;
+    top:60%;
+}
+.left{
+    background-color: brown;;
+    width: 185px;
+    height: 850px;
+    float: left;
+}
+.right{
+    width: 450px;
+    float:left;
+}
+.profile-img{
+    height: 180px;
+    width: 180px;
+    background-color: #ddd;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    border:10px solid #fbb03b;
+    box-shadow:6px 7px 9px 5px #fbb03b73;
+}
+hr{
+    width: 50%;
+}
+.profile-img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.box-1{
+    position:relative;
+}
+.heading{
+    background-color: bisque;
+    padding: 10px;
+    color: #fbb03f;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -15px;
+    border-style:double
+}
+.heading::after{
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 18px;
+    background-color: rgb(247, 233, 175);
+    left: 191px;
+    top: 26px;
+    transform: rotate(56deg);
+    z-index: -1;
+}
+.p1{
+    padding:9px 10px;
+    font-size: 15px;
+}
+
+.skill{
+    text-align:right;
+    padding: 2px;
+    padding-bottom: 2px;
+    color:rgb(0, 0, 0)
+}
+.español{
+    width: 95%;
+    background-color: white;
+}
+
+.INGLÉS{
+    width: 80%;
+    background-color: white;
+}
+.ITALIANO{
+    width: 85%;
+    background-color: white;
+}
+.PORTUGUÉS{
+    width: 50%;
+    background-color: white;
+}
+.paqueteoffice{
+    width: 90%;
+    background: white;
+}
+.photoshop{
+    width: 90%;
+    background-color: white;
+}
+.name-div{
+    padding: 35px 0px 60px 55px;
+    text-align:center;
+    letter-spacing: 3px;
+}
+
+.name-div h1{
+    margin-bottom: 10px;
+}
+.box-2{
+    padding:0px 10px;
+    margin-top:35px;
+}
+.p2{
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    word-spacing: 1px;
+    line-height: 18px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+h2{
+    font: 50px;
+    margin-bottom: 15px;
+    padding: 5px 10px 10px 10px;
+}
+button{
+    font-size: 20px;
+    margin-bottom: 15px;
+    background-color: bisque;
+}
